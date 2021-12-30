@@ -10,10 +10,12 @@ h1 {
 }
 
 body {
-    background-image:url("../img/narrow_bg.png");
+    background-image:url("../img/flower_bee.jpg");
     /*홈페이지 배경그림 넣을 때, 다른 폴더에서 불러올 때 경로 잘 넣어 주어야 함, 상위폴더인 경우 .. 넣어 주어야 함*/
-    background-repeat:repeat-x;    /*가로방향으로 반복*/
+        /* background-repeat:repeat-x;    가로방향으로 반복*/
     /* background-repeat:repeat-y;    세로방향으로 반복 */
-    /* background-repeat:no-repeat;  배경이미지 반복 안 함,한 번만*/
-    /* background-color:#D5D5D5; 홈페이지 배경색 넣을 때*/
+    background-repeat:no-repeat;      /* 배경이미지 반복 안 함,한 번만*/
+    background-color:#F6F6F6; /*홈페이지 배경색 넣을 때*/
+    background-position:right center;
+
 }
