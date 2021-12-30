@@ -1,0 +1,52 @@
+a:link {
+    text-decoration:none;
+}
+
+a:visited {
+    color:pink;
+}
+
+a:hover {
+    color:red;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+a:active {
+    color:purple;
+}
+
+h1 {
+    color:yellow;
+    font-size:40px;
+    text-decoration:line-through;
+}
+
+h2 {
+    color:orange;
+    font-size:30px;
+    font-family:"궁서체";
+}
+
+h3 {
+    color:red;
+    font-size:50px;
+    text-align:center;
+    text-decoration:underline;
+}
+
+h4 {
+    color:orange;
+    font-size:30px;
+    text-decoration:none;
+    text-shadow:3px 3px 3px #ffff00;
+}
+
+p {
+    color:blue;
+    text-align:right;
+    line-height:150%;
+    line-weight:150%;
+    bold;
+    font-style:italic;
+}
