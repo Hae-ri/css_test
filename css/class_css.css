@@ -1,0 +1,28 @@
+/* css 주석문 쓰는 법
+class 선택자-이름 앞에.*/
+
+
+.red {
+    color:red;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+
+
+h1 {
+    color:yellow;
+    font-size:30px;
+}
+
+
+
+h1.redh1 {
+    color:red;
+    font-size:50px;
+}
+
+h1.blueh1 {
+    color:blue;
+    font-size:50px;
+}

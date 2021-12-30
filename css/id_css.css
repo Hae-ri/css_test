@@ -1,0 +1,22 @@
+/* css 주석문 쓰는 법
+id 선택자 이름 앞에 #*/
+
+#position1 {
+    color:red;
+    font-weight:bold;
+    font-size:40px;
+}
+
+#position2 {
+    color:blue;
+    font-weight:bold;
+    font-size:40px;
+}
+p {
+    color:grey;
+    font-size:30px;
+}
+
+
+/*후손선택자
+해당 아이디의 자손의 (예:ul의 자손인 li) 내용에만 적용해줌*/
