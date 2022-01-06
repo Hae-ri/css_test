@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>웹페이지 고정형 2단 레이아웃</title>
+    <style>
+        * {
+            padding:0;
+            margin:0;
+        }
+
+        #wrap {
+            width:1000px;
+<!--            전체 크기 고정-->
+            margin:0 auto;
+        }
+
+
+        header {
+            background-color:pink;
+            height:100px;
+        }
+
+<!--        aside {-->
+<!--            float:left;-->
+<!--            background-color:grey;-->
+<!--            width:200px;-->
+<!--            height:500px;-->
+<!--        }-->
+
+        #aside_left  {
+            float:left;
+            background-color:yellow;
+            width:200px;
+            height:500px;
+        }
+
+        #aside_right  {
+            float:left;
+            background-color:#D9E5FF;
+            width:200px;
+            height:500px;
+        }
+
+        main {
+            float:left;
+            background-color:#B3E148;
+            width:600px;
+            height:500px;
+        }
+
+        footer {
+            background-color:grey;
+            height:80px;
+            clear:both;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+
+        <header>
+        <!--        메뉴, 로고-->
+        상단 헤더 부분
+        </header>
+
+        <aside id="aside_left">
+        <!--        메뉴나 배너 등 표시-->
+            <span>
+            왼쪽 부분
+            </span>
+        </aside>
+
+        <main>
+        메인 콘텐츠 부분
+        </main>
+
+        <aside id="aside_right">
+        <!--        메뉴나 배너 등 표시-->
+        오른쪽 부분
+        </aside>
+
+        <footer>
+        <!--        저작권, 주소,연락처 등-->
+        하단 푸터 부분
+        </footer>
+
+    </div>
+
+</body>
+</html>
