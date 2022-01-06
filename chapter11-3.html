@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>부분 고정형 2단 레이아웃</title>
+
+        <style>
+        * {
+            padding:0;
+            margin:0;
+        }
+
+        header {
+            background-color:pink;
+            height:100px;
+        }
+
+
+        aside {
+            float:left;
+            background-color:grey;
+            width:200px;
+            height:500px;
+        }
+
+        main {
+            float:left;
+            background-color:orange;
+            width:800px;
+            height:500px;
+        }
+
+        footer {
+            background-color:pink;
+            height:80px;
+            clear:both;
+        }
+
+        header #header_content {
+            background-color:#EAEAEA;
+            width:1000px;
+            height:80px;
+            margin:0 auto;
+        }
+
+        footer #footer_content {
+            background-color:#EAEAEA;
+            width:1000px;
+            height:60px;
+            margin:0 auto;
+        }
+
+        #main_section {
+            width:1000px;
+            margin:0 auto;
+            <!--            가로 너비를 안 정하면 화면 전체로 잡음-->
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+        <header>
+        <!--        메뉴, 로고-->
+            <div id="header_content">
+                상단 헤더 부분
+            </div>
+        </header>
+
+        <section id="main_section">
+
+            <aside>
+            <!--        메뉴나 배너 등 표시-->
+                왼쪽 부분
+
+            </aside>
+
+            <main>
+            메인 콘텐츠 부분
+            </main>
+
+        </section>
+
+        <footer>
+        <!--        저작권, 주소,연락처 등-->
+            <div id="footer_content">
+                하단 푸터 부분
+            </div>
+        </footer>
+
+</body>
+</html>
